@@ -1,0 +1,14 @@
+{
+  "name": "puppeteer_js",
+  "version": "1.0.0",
+  "description": "Puppeteer Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rutuja Wayase",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.8.0"
+  }
+}

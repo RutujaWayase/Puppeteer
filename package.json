@@ -4,7 +4,8 @@
   "description": "Puppeteer Project",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./Tests "
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./Tests/brokenLinks.js ",
+    "path": "Puppeteer_JS/Images"
   },
   "author": "Rutuja Wayase",
   "license": "ISC",

@@ -4,11 +4,14 @@
   "description": "Puppeteer Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./Tests "
   },
   "author": "Rutuja Wayase",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^23.8.0"
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "puppeteer": "^23.8.0",
+    "puppeteer-core": "^23.8.0"
   }
 }
